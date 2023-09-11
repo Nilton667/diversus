@@ -1,15 +1,16 @@
-import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+/*import { useEffect, useState } from "react";
+//import { Link, useNavigate } from "react-router-dom";
 
 import user from '../assets/photoUser/user.png';
-import { useCart } from "../hooks/useCart";
+//import { useCart } from "../hooks/useCart";
 import { getUserProfile, logout } from "../util/auth";
+import Link from "next/link";
 
 export function Menu() {
-  const navigation = useNavigate();
+  //const navigation = useNavigate();
   const [avatar, setAvatar] = useState("");
 
-  const { cart } = useCart();
+  //const { cart } = useCart();
   const cartSize = cart.length;
 
   function sessionClose(): void {
@@ -34,7 +35,7 @@ export function Menu() {
     };
     // Caso não seja possível
     img.onerror = () => {
-      setAvatar(user);
+      //setAvatar(user);
     };
 
   },
@@ -65,4 +66,4 @@ export function Menu() {
       </nav>
     </>
   );
-}
+}*/
