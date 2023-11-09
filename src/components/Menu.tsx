@@ -1,9 +1,10 @@
 "use client"
 import Link from "next/link";
+import userImage from '@public/img/user/user.png'
+import Image from 'next/image'
 
 export function Menu() {
-
-  return (
+  return(
     <>
       <nav className="navbar  navbar-dark bg-dark pt-3 pb-3">
         <div className="container">
@@ -18,12 +19,12 @@ export function Menu() {
               </div>
             <div className="dropdown">
               <div className="avatar-mini" id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src='' alt=""/>
+                <Image src={userImage} alt={"user"} fill/>
               </div>
               <ul className="dropdown-menu dropdown-menu-menu border-0" aria-labelledby="dropdownMenu">
                 <li><Link className="dropdown-item" href="/perfil">Perfil</Link></li>
                 <li><Link className="dropdown-item" href="/history">Histórico</Link></li>
-                <li><button className="dropdown-item" onClick={ (e)=>{console.log('')}} >Sair</button></li>
+                <li><button className="dropdown-item" onClick={(e)=>{console.log('')}} >Sair</button></li>
               </ul>
             </div>
           </form>

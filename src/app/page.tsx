@@ -1,26 +1,23 @@
-import banner from './assets/img/banner.png'
-import banner2 from './assets/img/banner2.png'
-import banner3 from './assets/img/banner3.png'
-import calendar from './assets/img/calendar.png'
-import glob from './assets/img/glob.png'
-import box from './assets/img/box.png'
-import money from './assets/img/money.png'
-import map from './assets/img/map.png'
-import suport from './assets/img/suport.png'
-import Zara from './assets/img/zara.png'
-import ZaraHome from './assets/img/zarahome.png'
-import Aliexpress from './assets/img/Aliexpress.png'
-import Amazon from './assets/img/Amazon.png'
-import EBay from './assets/img/EBay.png'
-import Gap from './assets/img/Gap.png'
+import banner from '@public/img/banner.png'
+import banner2 from '@public/img/banner2.png'
+import banner3 from '@public/img/banner3.png'
+import calendar from '@public/img/calendar.png'
+import glob from '@public/img/glob.png'
+import box from '@public/img/box.png'
+import money from '@public/img/money.png'
+import map from '@public/img/map.png'
+import suport from '@public/img/suport.png'
+import Zara from '@public/img/zara.png'
+import ZaraHome from '@public/img/zarahome.png'
+import Aliexpress from '@public/img/Aliexpress.png'
+import Amazon from '@public/img/Amazon.png'
+import EBay from '@public/img/EBay.png'
+import Gap from '@public/img/Gap.png'
 import Image from 'next/image'
-import './page.scss'
-import { Menu } from '../components/Menu'
 
 export default function Home() {
   return (
     <>
-      <Menu/>
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
@@ -178,32 +175,6 @@ export default function Home() {
             Sabemos o quão complicado é fazer as compras online estão deixe que a Vénus faça por sí.
           </div>
         </div>
-      </div>
-    </div>
-    <div className="rodape bg-dark pt-5">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 text-color-w">
-            <h4><b>Sobre nos</b></h4>
-            A Venus Robusta Lda, é uma empresa 100% Angolana centrada <br />
-            no sector imobiliário e arquitetónico, sediada em Luanda, criada por<br />
-            profissionais certificados, com experiências sólidas<br />
-            do mercado no ramo imobiliário.
-          </div>
-          <div className="col-lg-4 text-color-w">
-            <h4><b>Contacto</b></h4>
-            <b>Tel:</b><a href="tel:+244935074974"> +244 935 074 974</a><br/>
-            <b>WhatsApp:</b><a href="https://api.whatsapp.com/send?1=pt_PT&phone=244935074974"> +244 935 074 974</a><br/>
-            <b>Email:</b><a href="mailto:info@diversus.ao"> info@diversus.ao</a>
-          </div>
-          <div className="col-lg-2 text-color-w">
-            <h4 className="mb-3"><b>Redes sociais</b></h4>
-            <a href="https://www.facebook.com/V%C3%AAnus-robusta-imobili%C3%A1ria-102576001628797/" target="_blank" className="nav-link-inc" rel="noreferrer"><i className="fa fa-facebook" /></a>
-            <a href="https://www.instagram.com/venusrobusta/?hl=pt" target="_blank" className="nav-link-inc ms-2 me-2" rel="noreferrer"><i className="fa fa-instagram" /></a>
-          </div>
-        </div>
-        <hr className="mt-5"/>
-        <div className="text-color-w">©2023 Diversus, Todos os Direitos Reservados.</div>
       </div>
     </div>
     </>
