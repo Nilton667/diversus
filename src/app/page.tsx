@@ -83,7 +83,6 @@ export default function Home() {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
-<p>testando</p>
     <div className="div-shops">
       <div className="container text-center">
         <h2><b>Faca compra nas melhores <span className="h1-Pollaroid-span">loja</span> do mundo</b></h2>
