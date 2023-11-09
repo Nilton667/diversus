@@ -15,10 +15,12 @@ import EBay from './assets/img/EBay.png'
 import Gap from './assets/img/Gap.png'
 import Image from 'next/image'
 import './page.scss'
+import { Menu } from '../components/Menu'
 
 export default function Home() {
   return (
     <>
+      <Menu/>
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
